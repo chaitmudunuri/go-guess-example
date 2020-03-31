@@ -1,5 +1,5 @@
 # Go Implementation of Rust Guessing Game 
-## Learn Rust Basics using the game
+## Learn Go Basics using the game
 
 We start with the basic code from the **Rust Book** and add new data structures and functions to make the code modular and reusable.
 
@@ -62,18 +62,11 @@ Yay! Got it in 3 tries.
 Verson 4 implements guessing range indication like Rust final version.
 
 ```
-fn main() {
-    let mut guessing_state = GuessingState::new(1, 100);
-    while !guessing_state.input().ok() {}
-}
+for !guess.read().ok() {}
 ```
 
-* `GuessingState` will implement `new` and `Display` trait
-* `new` will take guessing range as input so that it is reusable
-* `Display` is like `.toString` in Java
 * Display will show a guessing range instead of Debug input
 * Display will be like `[min]========[left]====[right]========[max]`
-* `read_input()` and `check_guess()` will be implemented on `GuessingState`
 
 **Sample Output**
 ```
