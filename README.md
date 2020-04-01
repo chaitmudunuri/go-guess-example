@@ -81,3 +81,6 @@ Guess? 48
 Guess? 47
 Yay! Got it in 4 tries.
 ```
+### Version 5  
+Verson 5 implements basic API `guess` that can be used over the wire.
+Sample request: `http://localhost:7000/guess?guess=50`
