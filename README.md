@@ -40,7 +40,7 @@ Yay! Got it in 5 tries.
 ### Version 3  
 Version 3 adds `Guess` struct to keep all the guess related information at one place.    
 * Implements `read()` and `ok()` functions on `Guess`
-* Implements `String()` to print the struct using `fmt::Print` functions
+* Implements `String()` to print the struct using `fmt.Print` functions
 
 ```
 type Guess struct {
